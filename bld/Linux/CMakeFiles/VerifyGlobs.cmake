@@ -5,6 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # FoxFireEngine_src at CMakeLists.txt:7 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/mnt/c/Repos/CMake/FoxFireEngine/bld/../inc/*.h")
 set(OLD_GLOB
+  "/mnt/c/Repos/CMake/FoxFireEngine/bld/../inc/compositor.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
